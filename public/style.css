@@ -1,0 +1,15 @@
+.emporium {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+ul li a {
+  color: black;
+  font-size: 10px;
+}
+ul li a:hover {
+  color: grey;
+}
+
+/*# sourceMappingURL=style.css.map */
