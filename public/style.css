@@ -12,4 +12,17 @@ ul li a:hover {
   color: grey;
 }
 
+.shopAt {
+  background-color: #f1f0f0e5;
+}
+
+.h3ShopAt {
+  color: red;
+}
+
+.saleItems {
+  border-radius: 50px;
+  background-color: red;
+}
+
 /*# sourceMappingURL=style.css.map */
