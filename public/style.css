@@ -45,4 +45,11 @@ ul li a:hover {
   padding: 10px;
 }
 
+.imgbackground {
+  background-image: url("../images/cta-bg.jpg");
+  background-size: cover;
+  background-position-y: center;
+  padding: 200px;
+}
+
 /*# sourceMappingURL=style.css.map */
