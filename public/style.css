@@ -25,4 +25,17 @@ ul li a:hover {
   background-color: red;
 }
 
+.imgtext {
+  position: relative;
+}
+.imgtext .centered {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  color: white;
+  border-bottom: 1px white solid;
+  text-decoration: none;
+  font-size: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
