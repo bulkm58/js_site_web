@@ -49,7 +49,35 @@ ul li a:hover {
   background-image: url("../images/cta-bg.jpg");
   background-size: cover;
   background-position-y: center;
+  position: sticky;
   padding: 200px;
+}
+
+blog .carousel-indicators {
+  left: 0;
+  top: auto;
+  bottom: -40px;
+}
+blog .carousel-indicators li {
+  background: #a3a3a3;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+blog .carousel-indicators .active {
+  background: #707070;
+}
+
+.trusted {
+  background-color: #f1f0f0e5;
+}
+
+.veryFast {
+  background-color: red;
+}
+
+.trustedBy {
+  background-color: #f1f0f0e5;
 }
 
 /*# sourceMappingURL=style.css.map */
