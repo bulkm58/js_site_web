@@ -80,4 +80,49 @@ blog .carousel-indicators .active {
   background-color: #f1f0f0e5;
 }
 
+.footerColor {
+  background-color: #212121;
+}
+.footerColor p {
+  color: grey;
+}
+.footerColor h6 {
+  color: grey;
+}
+.footerColor h6:hover {
+  color: white;
+}
+.footerColor a {
+  color: dark;
+}
+.footerColor h4 {
+  text-align: left;
+}
+
+.footer2Color {
+  background-color: #0a0a0a;
+}
+.footer2Color p {
+  color: grey;
+}
+
+.borderFooter {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+.borderFooter h6 {
+  border-bottom: 1px solid grey;
+  padding-bottom: 15px;
+}
+
+.footerA a {
+  border: 1px solid grey;
+  padding: 10px;
+  font-size: 10px;
+}
+.footerA a:hover {
+  text-decoration: none;
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
