@@ -40,3 +40,6 @@ bouton1.addEventListener('click',()=>{
     monBody.style.color=""
     para.style.color="black"
 })
+
+
+
