@@ -232,6 +232,40 @@ blog .carousel-indicators .active {
 .zoomeuuuh {
   overflow: hidden;
 }
+.zoomeuuuh img {
+  transition: ease 1s;
+}
+.zoomeuuuh:hover img {
+  transform: scale(1.1);
+}
+.zoomeuuuh:hover .cache {
+  opacity: 1;
+}
+.zoomeuuuh:hover .cache a {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+.zoomeuuuh:hover .cache p {
+  font-size: 15px;
+}
+.zoomeuuuh .cache {
+  position: absolute;
+  bottom: 98px;
+  opacity: 0;
+  z-index: 3;
+  transition: bottom 0.5s ease;
+}
+.zoomeuuuh .cache a {
+  color: white;
+  transition: 0.5s ease;
+  opacity: 0.9;
+}
+.zoomeuuuh .cache a:first-child {
+  background-color: #222222;
+}
+.zoomeuuuh .cache a:last-child {
+  background-color: #BD584E;
+}
 
 .mesZooms {
   transition: 0.3s ease-in-out;

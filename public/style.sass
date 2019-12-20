@@ -217,6 +217,33 @@ blog .carousel-indicators
 
 .zoomeuuuh
     overflow: hidden
+    img
+        transition: ease 1s
+    &:hover
+        img 
+            transform: scale(1.1)
+        .cache
+            opacity: 1
+            a 
+                padding-top: 15px
+                padding-left: 15px
+            p 
+                font-size: 15px
+    .cache 
+        position: absolute
+        bottom: 98px
+        opacity: 0
+        z-index: 3
+        transition: bottom 0.5s ease
+        a 
+            
+            color: white
+            transition: 0.5s ease
+            opacity: 0.9
+        a:first-child 
+            background-color: #222222
+        a:last-child
+            background-color: #BD584E
 .mesZooms
     transition: .3s ease-in-out
     &:hover
