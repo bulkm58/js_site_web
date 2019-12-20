@@ -43,3 +43,28 @@ bouton1.addEventListener('click',()=>{
 
 
 
+let navbeneden = document.querySelector('header')
+console.log(navbeneden)
+
+let maNav = document.querySelector('.nav2')
+let mesimgs = navbeneden.querySelector('img')
+window.addEventListener('scroll',() =>{
+    let y = window.scrollY
+    if(y>215){
+        navbeneden.classList.add("sticky")
+        navbeneden.style.zIndex="2"
+        mesimgs.style.float="left"
+        navbeneden.style.backgroundColor="white"
+        navbeneden.style.boxShadow = "1px 1px 1px #dbdbdb"
+        maNav.style.marginTop="15px"
+    }
+    else{
+        navbeneden.classList.remove("sticky")
+        navbeneden.style.top = ""
+        navbeneden.style.zIndex = ""
+        mesimgs.style.float = ""
+        navbeneden.style.boxShadow =""
+    }
+})
+
+

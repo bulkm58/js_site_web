@@ -173,6 +173,13 @@ blog .carousel-indicators .active {
   text-decoration: none;
   cursor: pointer;
 }
+.sticky {
+  top: 0;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+}
+
 .nav2 .nav .dropdown {
   position: relative;
   display: inline-block;
