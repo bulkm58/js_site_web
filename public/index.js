@@ -10,9 +10,12 @@ let spancloclo = document.querySelector('.close')
 
 btnmodal.addEventListener('click',() =>{
     monmodal.style.display ="block"
+    monmodal.style.color="black"
+
 })
 spancloclo.addEventListener('click',()=>{
     monmodal.style.display="none"
+    monmodal.style.color="black"
 })
 
 
@@ -45,9 +48,13 @@ bouton1.addEventListener('click',()=>{
 
 let navbeneden = document.querySelector('header')
 console.log(navbeneden)
-
+let invisible = document.querySelector('.navInvisi')
 let maNav = document.querySelector('.nav2')
 let mesimgs = navbeneden.querySelector('img')
+let mesBoutons = document.querySelector('.modalConect')
+
+
+
 window.addEventListener('scroll',() =>{
     let y = window.scrollY
     if(y>215){
@@ -56,7 +63,12 @@ window.addEventListener('scroll',() =>{
         mesimgs.style.float="left"
         navbeneden.style.backgroundColor="white"
         navbeneden.style.boxShadow = "1px 1px 1px #dbdbdb"
-        maNav.style.marginTop="15px"
+        navbeneden.style.marginTop=""
+        invisible.classList.add(".navInvisi")
+        navbeneden.style.transition = "2s ease"
+        maNav.style.padding = "15px"
+        mesBoutons.style.marginTop = "20px"
+
     }
     else{
         navbeneden.classList.remove("sticky")
@@ -64,7 +76,11 @@ window.addEventListener('scroll',() =>{
         navbeneden.style.zIndex = ""
         mesimgs.style.float = ""
         navbeneden.style.boxShadow =""
+        navbeneden.style.backgroundColor="dark"
+        invisible.classList.remove(".navInvisi")
+
     }
 })
+
 
 
